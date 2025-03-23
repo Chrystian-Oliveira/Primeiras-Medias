@@ -41,7 +41,7 @@
         }
     }
     
-    @media (min-width: 1367px) and (max-width: 1800px) { /* Desktop */
+    @media (min-width: 1367px) and (max-width: 1920px) { /* Desktop */
         body {
             background-image: url(../imagens/back-pc.jpg);
         }
@@ -55,7 +55,7 @@
         }
     }
     
-    @media (min-width: 1801px) { /* Grandes Telas */
+    @media (min-width: 1921px) { /* Grandes Telas */
         body {
             background-image: url(../imagens/back-tv.jpg);
         }
