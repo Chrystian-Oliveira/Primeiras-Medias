@@ -28,7 +28,7 @@
         }
     }
 
-    @media (min-width: 993px) and (max-width: 1440px) {     /* Tablets Landscape */
+    @media (min-width: 993px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {     /* Tablets Landscape */
         body {
             background-image: url(../imagens/cev-landscape.jpg);
         }
