@@ -13,7 +13,7 @@
 
     }
 
-    @media (min-width: 768px) and (max-width: 992px) { /* Tablets Portrait */
+    @media (min-width: 768px) and (max-width: 993px) { /* Tablets Portrait */
         body {
             background: black url(../imagens/back-tablet.jpg) no-repeat;
             background-size: cover;
@@ -23,12 +23,12 @@
             display: block;
         }
     
-        #celular {
+        #celular, #desktop, #tv {
             display: none;
         }
     }
     
-    @media (min-width: 993px) and (max-width: 1366px) { /* Tablets Landscape e Notebooks Pequenos */
+    @media (min-width: 994px) and (max-width: 1366px) { /* Tablets Landscape e Notebooks Pequenos */
         body {
             background-image: url(../imagens/cev-landscape.jpg);
         }
@@ -42,7 +42,7 @@
         }
     }
     
-    @media (min-width: 1367px) and (max-width: 1799px) { /* Desktop */
+    @media (min-width: 1367px) and (max-width: 1800px) { /* Desktop */
         body {
             background-image: url(../imagens/back-pc.jpg);
         }
@@ -56,7 +56,7 @@
         }
     }
     
-    @media (min-width: 1800px) { /* Grandes Telas */
+    @media (min-width: 1801px) { /* Grandes Telas */
         body {
             background-image: url(../imagens/back-tv.jpg);
         }
