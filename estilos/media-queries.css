@@ -23,7 +23,7 @@
             display: block;
         }
     
-        #celular, #desktop, #tv {
+        #celular {
             display: none;
         }
     }
