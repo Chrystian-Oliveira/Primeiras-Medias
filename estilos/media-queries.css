@@ -22,10 +22,20 @@
         #tablet {
             display: block;
         }
+
+        .tab {
+            display: block;
+            padding-bottom: 15px;
+        }
+
+        .cel, .desk, .tele {
+            display: none;
+        }
     
         #celular, #desktop, #tv {
             display: none;
         }
+
     }
     
     @media (min-width: 993px) and (max-width: 1370px) { /* Tablets Landscape e Notebooks Pequenos */
@@ -35,6 +45,15 @@
     
         #tablet {
             display: block;
+        }
+
+        .tab {
+            display: block;
+            padding-bottom: 15px;
+        }
+
+        .cel, .desk, .tele {
+            display: none;
         }
     
         #desktop, #celular, #tv {
@@ -46,9 +65,18 @@
         body {
             background-image: url(../imagens/back-pc.jpg);
         }
-    
+
         #desktop {
             display: block;
+        }
+
+        .desk {
+            display: block;
+            padding-bottom: 15px;
+        }
+
+        .cel, .tab, .tele {
+            display: none;
         }
     
         #tablet, #celular, #tv {
@@ -63,6 +91,15 @@
     
         #tv {
             display: block;
+        }
+
+        .tele {
+            display: block;
+            padding-bottom: 15px;
+        }
+
+        .cel, .tab, .desk {
+            display: none;
         }
     
         #tablet, #desktop, #celular {

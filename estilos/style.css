@@ -34,14 +34,28 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
 #celular {
     display: block;
     margin: auto;
 }
 
+.cel {
+    display: block;
+    padding-bottom: 10px;
+}
+
 #tablet {
     display: none;
     margin: auto;
+}
+
+.tab {
+    display: none;
 }
 
 #impressao {
@@ -54,9 +68,17 @@ h1 {
     margin: auto;
 }
 
+.desk {
+    display: none;
+}
+
 #tv {
     display: none;
     margin: auto;
+}
+
+.tele {
+    display: none;
 }
 
 
