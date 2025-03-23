@@ -27,7 +27,7 @@
         }
     }
     
-    @media (min-width: 993px) and (max-width: 1366px) { /* Tablets Landscape e Notebooks Pequenos */
+    @media (min-width: 993px) and (max-width: 1370px) { /* Tablets Landscape e Notebooks Pequenos */
         body {
             background-image: url(../imagens/cev-landscape.jpg);
         }
@@ -41,7 +41,7 @@
         }
     }
     
-    @media (min-width: 1367px) and (max-width: 1920px) { /* Desktop */
+    @media (min-width: 1371px) and (max-width: 1920px) { /* Desktop */
         body {
             background-image: url(../imagens/back-pc.jpg);
         }
