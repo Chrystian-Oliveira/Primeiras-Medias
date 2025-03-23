@@ -68,7 +68,7 @@
         }
     }
 
-    @media (min-width: 1801px) {        /* Grandes Telas */
+    @media (min-width: 2500px) {        /* Grandes Telas */
         body {
             background-image: url(../imagens/back-tv.jpg);
         }
