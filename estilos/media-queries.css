@@ -15,8 +15,7 @@
 
     @media (min-width: 768px) and (max-width: 993px) { /* Tablets Portrait */
         body {
-            background: black url(../imagens/back-tablet.jpg) no-repeat;
-            background-size: cover;
+            background-image: url(../imagens/back-tablet.jpg);
         }
     
         #tablet {
