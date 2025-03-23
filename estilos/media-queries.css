@@ -13,80 +13,60 @@
 
     }
 
-    @media (min-width: 768px) and (max-width: 992px) {      /* Tablets Portrait */
+    @media (max-width: 992px) { /* Tablets Portrait */
         body {
             background: black url(../imagens/back-tablet.jpg) no-repeat;
             background-size: cover;
         }
-
+    
         #tablet {
             display: block;
         }
-
-        #celular {
+    
+        #celular, #desktop, #tv {
             display: none;
         }
     }
-
-    @media (min-width: 993px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {     /* Tablets Landscape */
+    
+    @media (min-width: 993px) and (max-width: 1366px) { /* Tablets Landscape e Notebooks Pequenos */
         body {
             background-image: url(../imagens/cev-landscape.jpg);
         }
-
+    
         #tablet {
             display: block;
         }
-
-        #desktop {
-            display: none;
-        }
-
-        #celular {
+    
+        #desktop, #celular, #tv {
             display: none;
         }
     }
-
-    @media (min-width: 1401px) and (max-width: 1800px){        /* Desktop */
+    
+    @media (min-width: 1367px) and (max-width: 1799px) { /* Desktop */
         body {
             background-image: url(../imagens/back-pc.jpg);
         }
-
-        #tablet {
-            display: none;
-        }
-
+    
         #desktop {
             display: block;
         }
-
-        #celular {
-            display: none;
-        }
-
-        #tv {
+    
+        #tablet, #celular, #tv {
             display: none;
         }
     }
-
-    @media (min-width: 2500px) {        /* Grandes Telas */
+    
+    @media (min-width: 1800px) { /* Grandes Telas */
         body {
             background-image: url(../imagens/back-tv.jpg);
         }
-
-        #tablet {
-            display: none;
-        }
-
-        #desktop {
-            display: none;
-        }
-
-        #celular {
-            display: none;
-        }
-
+    
         #tv {
             display: block;
         }
-
+    
+        #tablet, #desktop, #celular {
+            display: none;
+        }
     }
+    
